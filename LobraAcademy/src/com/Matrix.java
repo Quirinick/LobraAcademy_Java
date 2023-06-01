@@ -19,7 +19,7 @@ public class Matrix{
 		for (int i = 0; i<dim; i++) { // Ciclo esterno per iterare sulle righe della matrice
 			
 			for (int j = 0; j<dim; j++) { // Ciclo interno per iterare sulle colonne della matrice
-				
+			
 				matrix [i][j] = scanner.nextInt(); // Legge l'intero inserito dall'utente e lo assegna alla cella corrispondente della matrice
 			}
 		}
